@@ -1,6 +1,6 @@
 /**
  * This class creates a pair of float numbers.
- * @author José A. Rodríguez Rivera
+ * @author Jose A. Rodriguez Rivera
  *
  */
 public class FLOATPair {

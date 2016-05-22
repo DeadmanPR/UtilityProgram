@@ -1,6 +1,6 @@
 /**
  * This class contains operations related to the Operations on Numbers Menu.
- * @author José A. Rodríguez Rivera
+ * @author Jose A. Rodriguez Rivera
  *
  */
 public class NumbersMenuManager {

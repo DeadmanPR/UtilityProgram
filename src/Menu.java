@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * This class has several operations related to Menus.
- * @author José A. Rodríguez Rivera
+ * @author Jose A. Rodriguez Rivera
  *
  */
 public class Menu {

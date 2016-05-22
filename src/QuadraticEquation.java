@@ -1,6 +1,6 @@
 /**
  * This class defines a Quadratic Equation, including a solver for these equations.
- * @author José A. Rodríguez Rivera
+ * @author Jose A. Rodriguez Rivera
  *
  */
 public class QuadraticEquation {

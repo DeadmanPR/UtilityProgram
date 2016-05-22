@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 /**
  * This class contains the operations used during the program.
- * @author José A. Rodríguez Rivera
+ * @author Jose A. Rodriguez Rivera
  *
  */
 public class Operations {
@@ -184,17 +184,17 @@ public class Operations {
 			stringLength = message.length();
 			indexMessage = stringLength-1; 
 			
-			//Changes the format's x to §, to prevent conflicts with the string having x, thus getting replaced.
-			format = format.replaceAll("x", "§"); 
+			//Changes the format's x to ï¿½, to prevent conflicts with the string having x, thus getting replaced.
+			format = format.replaceAll("x", "ï¿½"); 
 			
 			//Creates a copy of the pattern string, with the first x replaced.
-			formattedMessage=format.replaceFirst("§", message.substring(index, index+1));
+			formattedMessage=format.replaceFirst("ï¿½", message.substring(index, index+1));
 			index++;
 			
 			//Replaces the remaining characters from the string.
 			do
 			{			
-				formattedMessage=formattedMessage.replaceFirst("§", message.substring(index, index+1));
+				formattedMessage=formattedMessage.replaceFirst("ï¿½", message.substring(index, index+1));
 				index++;
 			} while (index<=indexMessage); 
 			

@@ -1,6 +1,6 @@
 /**
  * This class contains several operations related to the Operations on Strings menu.
- * @author José A. Rodríguez Rivera
+ * @author Jose A. Rodriguez Rivera
  *
  */
 public class StringsMenuManager {
